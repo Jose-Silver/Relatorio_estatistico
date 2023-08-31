@@ -25,7 +25,7 @@ public class ContasService {
     double mediana = calcularMediana(list);
     Integer quantidade_itens = list.size();
     RelatorioEstatistico relatorio = new RelatorioEstatistico(media,desvpadrao,quantidade_itens,mediana);
-        return ResponseEntity.ok( relatorio);
+        return ResponseEntity.ok(relatorio);
 
     }
 
